@@ -1,0 +1,242 @@
+.topNav{
+	margin-top: 173px;
+	margin-bottom: 25px;
+	position: relative;
+}
+.topNav .fix a{
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	margin-top: -27.5px;
+	color: #616161;
+	transition: all .5s;
+}
+.topNav .fix a:hover{
+	color: #e50065;
+}
+.topNav .fix a:first-child{
+	left: 0;
+}
+.topNav .fix a:last-child{
+	right: 0;
+}
+.topNav .fix p{
+	margin: 20px 0 5px 0;
+	font-weight: bold;
+}
+.topNav .fix .text{
+	font-size: 17px;
+	font-weight: bold;
+}
+.topNav .fix .fix-left,.topNav .fix .fix-right{
+	width: 55px;
+	height: 55px;
+	transition: all .5s;
+}
+.topNav .fix .fix-left{	
+	background: url(../img/jt_2l.png);
+}
+.topNav .fix a:first-child:hover .fix-left{
+	background: url(../img/jt_2l_h.png);
+}
+.topNav .fix .fix-right{
+	background: url(../img/jt_2r.png);
+}
+.topNav .fix .fix-right p{
+	text-align: right;
+}
+.topNav .fix a:last-child:hover .fix-right{
+	background: url(../img/jt_2r_h.png);
+}
+.topNav .bigBox{
+	margin-bottom: 70px;
+}
+.topNav .bigBox .bigImg .list{
+	display: none;
+}
+.topNav .bigBox .bigImg .list:first-child{
+	display: block;
+}
+.topNav .bigBox .bigImg img{
+	width: 100%;
+}
+.topNav .bigBox .smallImg{
+	display:flex;
+	justify-content:space-around;
+	margin: 50px 140px 0;
+}
+.topNav .bigBox .smallImg .item{
+	width: 71px;
+	height: 50px;
+	border: 1px solid #E3E3E3;
+}
+.topNav .bigBox .smallImg .item img{
+	width: 100%;
+	padding: 1px;
+}
+.topNav .bigBox .smallImg .cur{
+	border: 1px solid #e50065;
+}
+.topNavBot{
+	width: 100%;
+	background: #f9f9f9;
+	padding: 30px 0;
+	margin-bottom: 60px;
+}
+.topNavBot .center{
+	border-bottom: 1px solid #ebebeb;
+	border-top: 1px solid #ebebeb;
+	padding: 20px 0;
+	margin: 20px 0;
+}
+.topNavBot p{
+	font-size: 13px;
+}
+.topNavBot span{
+	display: block;
+	margin-bottom: 10px;
+	font-size: 13px;
+	color: #999;
+}
+.topNavBot .bigPic{
+	display: flex;
+	justify-content:space-around;
+}
+.topNavBot .purchase{
+	width: 23%;
+	background: #c60c1b;
+	height: 37px;
+	line-height: 37px;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.topNavBot .yellow{
+	background: dodgerblue;
+}
+.topNavBot .purchase:hover{
+	opacity: 0.7;
+}
+
+.topNavBot .smallPic .share{
+	display: block;
+	width: 19px;
+	height: 16px;
+}
+.topNavBot .smallPic{
+	margin-top: 12px;
+	display: flex;
+	justify-content:space-around;
+}
+.topNavBot .smallPic .qqmb{
+	background: url(../img/top_logos_sprite.png) no-repeat 0 -198px;
+}
+.topNavBot .smallPic .qqzone{
+	background: url(../img/top_logos_sprite.png) no-repeat 0 -234px;
+}
+.topNavBot .smallPic .qqxiaoyou{
+	background: url(../img/top_logos_sprite.png) no-repeat 0 -216px;
+}
+.topNavBot .smallPic .qqmbsinam{
+	background: url(../img/top_logos_sprite.png) no-repeat 0 -270px;
+}
+.topNavBot .smallPic .renren{
+	background: url(../img/top_logos_sprite.png) no-repeat 0 -252px;
+}
+.topNavBot .smallPic .net{
+	background: url(../img/top_logos_sprite.png) no-repeat 0 -162px;
+}
+.topnavtwo{
+	margin-bottom: 60px;
+	text-align: center;
+}
+.topnavtwo h3{
+	color: rgb(229, 51, 51);
+	margin-bottom: 20px;
+}
+.topnavtwo p{
+	color: #616161;
+	font-size: 16px;
+}
+.topnavthree img,.topnavfive img{
+	width: 100%;
+}
+.topnavfour{
+	width: 100%;
+	overflow: hidden;
+}
+.topnavfour img{
+	margin-left: -200px;
+	margin-top: 70px;
+}
+.topnavfour .title{
+	line-height: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
+    background: url(../img/tit_bg2.jpg) left bottom no-repeat;
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+}
+.topnavfour .rightText{
+	padding-top: 14%;
+}
+.topnavfour p{
+	line-height: 30px;
+    font-size: 16px;
+    color: #616161;
+}
+.topnavfive{
+	width: 100%;
+	margin: 60px 0;
+}
+.topnavsix{
+	width: 100%;
+	overflow: hidden;
+}
+.topnavsix .LeftText .title{
+	line-height: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
+    background: url(../img/tit_bg2.jpg) left bottom no-repeat;
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+}
+.topnavsix .LeftText p{
+	line-height: 30px;
+    font-size: 16px;
+    color: #616161;
+}
+.topnavsix .LeftText{
+	padding-top: 14%;
+}
+.kong{
+	height: 200px;
+}
+.xuanx{
+	border-top: 1px solid #ededed;
+}
+.xuanx .xuanmain{	
+    padding: 30px 0;  
+    overflow: hidden;
+}
+.xuanx .xuanmain a{
+	text-decoration:none;
+	line-height: 32px;
+	font-size: 16px;
+	color: #616161;
+	transition: all .5s;
+}
+.xuanx .xuanmain a:hover{
+	color: #e50065;
+}
+.xuanx .xuanmain div:first-child{
+	float: left;
+}
+.xuanx .xuanmain div:last-child{
+	float: right;
+}

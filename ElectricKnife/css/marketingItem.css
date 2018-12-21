@@ -1,0 +1,48 @@
+.bigBox h2{
+	font-weight: bold;
+}
+#serveTop{
+	width: 100%;
+	margin: 83px 0 30px 0;
+}
+#serveTop img{
+	width: 100%;
+}
+.bigBox .top{
+	font-size: 16px;
+}
+.bigBox .top .left{
+	margin: 0 10px 0 30px;
+}
+.bigBox .center{
+	border-bottom: 1px solid #d9d9d9;
+	border-top: 1px solid #d9d9d9;
+	margin: 30px 0;
+	padding: 50px 0;
+}
+.bigBox .row img{
+	width: 100%;
+}
+.bigBox p{
+	font-size: 17px;
+	line-height: 28px;
+}
+.bigBox .botom{
+	overflow: hidden;
+	margin-bottom: 30px;
+	font-size: 16px;
+	color: #616161;
+}
+.bigBox .botom a{
+	color: #616161;
+	transition: all .3s;
+}
+.bigBox .botom a:hover{
+	color: #e50065;
+}
+.bigBox .botom .shang{
+	float: left;
+}
+.bigBox .botom .xia{
+	float: right;
+}

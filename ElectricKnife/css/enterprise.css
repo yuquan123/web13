@@ -1,0 +1,285 @@
+.enterbox .enter-top{
+	width: 100%;
+	height: 847px;
+	background: url(../img/enter1.jpg) center top / cover no-repeat;
+	margin-top: 83px;
+	position: relative;
+	overflow: hidden;
+}
+.enterbox .enter-top .anima{
+	height: 180px;
+    font-size: 42px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    left: 0;;
+    bottom: -5px;
+    animation: tiao 1s infinite;
+}
+.enterbox .enter-top .anima img{
+	cursor: pointer;
+}
+@keyframes tiao{
+	0%{bottom : -5px}
+	1%{bottom : 30px}
+	100%{bottom : -5px}
+}
+.enterbox .title{
+	text-shadow: 2px 7px 0 rgba(0,0,0,0.06);
+    font-size: 40px;
+    color: #e50065;
+    font-weight: bold;
+    text-align: center;
+    padding: 35px 0;
+}
+.enterbox p{
+	font-size: 16px;
+	line-height: 28px;
+}
+.enterbox .main1 .title{
+	margin: 60px 0;
+}
+.enterbox .main2{
+	background: #f9f9f9;
+	padding: 90px 0;
+}
+.enterbox .main2 .parrent{
+	position: relative;
+}
+.enterbox .main2 .parrent span{
+	display: inline-block;
+    width: 48px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    transition: all .3s;
+}
+.enterbox .main2 .parrent .bg1{
+	background: url(../img/enter4.png) no-repeat;
+	bottom: 53.5%;
+    left: 70.4%;
+}
+.enterbox .main2 .parrent .bg2{
+	background: url(../img/enter5.png) no-repeat;
+	top: 63%;
+    left: 74.8%;
+}
+.enterbox .main2 .parrent .bg3{
+	background: url(../img/enter6.png) no-repeat;
+	top: 88.8%;
+    right: 33%;
+}
+.enterbox .main2 .parrent .span2{
+	bottom: 37.6%;
+    left: 74.6%;
+}
+.enterbox .main2 .parrent .bg1:hover{
+	background: url(../img/enter4-1.png) no-repeat;
+}
+.enterbox .main2 .parrent .bg2:hover{
+	background: url(../img/enter5-1.png) no-repeat;
+}
+.enterbox .main2 .parrent .bg3:hover{
+	background: url(../img/enter6-1.png) no-repeat;
+}
+.enterbox .main2 h2{
+	font-weight: bold;
+}
+.enterbox .main2 .row img{
+	width: 100%;
+	margin: 25px 0;
+}
+.enterbox .main2 .row .father{
+	padding-left: 55px;
+}
+.enterbox .main3{
+	margin-bottom: 100px;
+}
+.enterbox .main3 #sweiper1{
+	background: url(../img/enter9.png) left bottom repeat-x;
+}
+.enterbox .main3 #sweiper1 .item{
+	background: url(../img/enter8.jpg) center bottom no-repeat;
+	padding: 0 14px 40px;
+	overflow: hidden;
+	transition: all .8s;
+}
+.enterbox .main3 #sweiper1 .item .img{
+	margin-bottom: 30px;
+	position: relative;
+}
+.enterbox .main3 #sweiper1 .item .img img{
+	width: 100%;
+}
+.enterbox .main3 #sweiper1 .item .bot{
+	padding-left: 52%;
+}
+.enterbox .main3 #sweiper1 .item a{
+	line-height: 22px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(229,0,101,0.49);
+	text-align: center;
+	color: #FFFFFF;
+	opacity: 0;
+	transition: all .8s;
+}
+.enterbox .main3 #sweiper1 .item a h2{
+	margin: 30px 0 20px 0;
+}
+.enterbox .main3 #sweiper1 .item a p{
+	font-size: 16px;
+}
+.enterbox .main3 #sweiper1 .item:hover a{
+	opacity: 1;
+}
+.enterbox .main3 #sweiper1 .item:hover{
+	background: url(../img/enter8-1.jpg) center bottom no-repeat;
+}
+.enterbox .main3 #sweiper1 .swiper-button-prev{
+	width: 39px;
+	height: 39px;
+	background: #FFFFFF url(../img/jt_3l.png);
+	top: 95%;
+	left: 0;
+}
+.enterbox .main3 #sweiper1 .swiper-button-next{
+	width: 39px;
+	height: 39px;
+	background:#FFFFFF url(../img/jt_3r.png);
+	top: 95%;
+	right: 0;
+}
+.enterbox .main4{
+	padding-top: 75px;
+	background: url(../img/enter11.jpg) no-repeat center top;
+	background-size: cover;
+	text-align: center;
+	margin-bottom: 150px;
+}
+.enterbox .main4 .quan{
+	margin-top: 40px;
+	text-align: center;
+	margin-right: -8px;
+    margin-bottom: -95px;
+    margin-left: -8px;
+}
+.enterbox .main4 .quan .box{
+	display: inline-block;
+    width: 218px;
+    height: 218px;
+    padding-top: 42px;
+    margin-right: 8px;
+    margin-left: 8px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .3s;
+}
+.enterbox .main4 .quan .box h3{
+	color: #000000;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.enterbox .main4 .quan .box p{
+	margin: 0;
+	color: #666;
+}
+.enterbox .main4 .quan .border1{
+	border: 5px solid #f8c700;
+}
+.enterbox .main4 .quan .border2{
+	border: 5px solid #d5f6f6;
+}
+.enterbox .main4 .quan .border3{
+	border: 5px solid #e50065;
+}
+.enterbox .main4 .quan .border3 p{
+	font-size: 27px;
+}
+.enterbox .main4 .quan .border4{
+	border: 5px solid #d5f6f6;
+}
+.enterbox .main4 .quan .border5{
+	border: 5px solid #f8c700;
+}
+.enterbox .main5{
+	text-align: center;
+}
+.enterbox .main5 .box{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.enterbox .main5 .box img{
+	transition: all .5s;
+	width: 100%;
+}
+.enterbox .main5 .box:hover img{
+	transform: scale(1.1);
+}
+.enterbox .main5 #swiper2{
+	margin: 40px 0;
+}
+.enterbox .main5 #swiper2 .swiper-button-prev{
+	background: url(../img/jt_2l_h.png);
+	width: 55px;
+	height: 55px;
+}
+.enterbox .main5 #swiper2 .swiper-button-next{
+	background: url(../img/jt_2r_h.png);
+	width: 55px;
+	height: 55px;
+}
+.enterbox .main5 #swiper2 .swiper-button-next.swiper-button-disabled{
+	background: url(../img/jt_2l.png);
+	opacity: 1;
+}
+.enterbox .main5 #swiper2 .swiper-button-prev.swiper-button-disabled{
+	background: url(../img/jt_2r.png);
+	opacity: 1;
+}
+.enterbox .main5 #swiper2 .box{
+	margin: 0 10px 20px;
+}
+.enterbox .main5 #swiper2 p{
+	font-size: 14px;
+}
+.left-nav{
+	margin-top: -200px;
+    position: fixed;
+    top: 50%;
+    left: 30px;
+    z-index: 999;
+}
+.left-nav a{
+	font-size: 16px;
+	display: block;
+    width: 88px;
+    height: 88px;
+    padding-top: 18px;
+    line-height: 26px;
+    margin-bottom: 14px;
+    background: #fff;
+    border-radius: 9px;
+    box-shadow: 0 3px 7px rgba(35,24,21,0.14);
+    color: #616161;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.left-nav a span{
+	display: block;
+}
+.left-nav a .big{
+	font-size: 26px;
+}

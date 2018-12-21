@@ -1,0 +1,19 @@
+[{
+	"title" : "产品中心","href":"productCenter.html?0",
+	"main" : ["豪华款","简易款","双/三动力","SPS","锂电/国标"]
+},{
+	"title" : "企业简介","href":"enterprise.html",
+	"main" : ["小刀科技","发展历程","企业文化","企业荣誉","联系我们"]
+},{
+	"title" : "新闻资讯","href":"information.html",   
+	"main" : ["媒体报道","小刀新闻"]
+},{
+	"title" : "品牌营销","href":"marketing.html",
+	"main" : ["终端活动","宣传视频","终端形象"]
+},{
+	"title" : "服务支持","href":"serviceSupport.html",
+	"main" : ["保修须知","服务三包","使用常识","保养原则","加盟流程","防伪查询"]
+},{
+	"title" : "人才招聘","href":"joinUS.html",
+	"main" : ["人才发展","招聘信息"]
+}]

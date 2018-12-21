@@ -1,0 +1,120 @@
+.centerItem a{
+	text-decoration: none;
+}
+#swiper1 img{
+	width: 100%;
+}
+#swiper1 .swiper-pagination-custom{
+	bottom: 50px;
+}
+#swiper1 .item{
+	display:inline-block;
+	width:50px;
+	height:3px;
+	background:#FFFFFF;
+	margin:0 10px;
+	transition: all .5s;
+	cursor: pointer;
+}
+#swiper1 .cur{
+	background:#e50065;
+}
+.bannerBtomList{
+	background: #fbfbfb;
+	padding: 37px 0 27px 0;
+	margin-bottom: 35px;
+}
+.bannerBtomList p{
+	color: #999999;
+	margin-top: 10px;
+	text-align: center;
+}
+.bannerBtomList .center1 div{
+	float: left;
+	width: 20%;
+	cursor: pointer;
+	text-align: center;
+}
+.bannerBtomList .center1 img{
+	display: inline-block;
+	width: 87px;
+	height: 54px;
+}
+.bannerBtomList .center1 .img2{
+	display: none;
+	margin: auto;
+}
+.centerList .row{
+	margin-bottom: 25px;
+}
+.centerList .col-md-1{
+	width: 106px;
+	height: 41px;
+	line-height: 41px;
+	text-align: center;
+	border-radius: 15px;
+	color: #616161;
+	margin: 0 25px 10px 0;
+	transition: all .3s;
+	cursor: pointer;
+}
+.centerList .col-md-1:hover{
+	background: #e50065;
+	color: #FFFFFF;
+}
+.centerItem .row{
+	display: none;
+}
+.centerItem .row:first-child{
+	display: block;
+}
+.centerItem .box{
+	padding: 50px 34px 25px 34px;
+	transition: all .3s;
+}
+.centerItem .box:hover{
+	box-shadow: 0 0 27px rgba(0,0,0,0.06);
+}
+.centerItem .box:hover .centent{
+	color: #E50065;
+}
+.centerItem .box:hover h4{
+	color: #E50065;
+}
+.centerItem .box .img{
+	padding-bottom: 50px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.centerItem .box .img img{
+	width: 100%;
+}
+.centerItem .box h4{
+	font-weight: bold;
+	color: #000000;
+	cursor: pointer;
+	transition: all .5s;
+}
+.centerItem .box .centent{	
+	height: 40px;
+	line-height: 20px;
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	color: #999;
+	transition: all .5s;
+}
+.centerItemBottom{
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	text-align: center;
+	background: #FFFFFF;
+	box-shadow: 0 0 27px rgba(0,0,0,.6);
+	color: #000000;
+	font-weight: bold;
+	cursor: pointer;
+}

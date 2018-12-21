@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.topPic{
+				width: 100%;
+				margin-top: 83px;
+			}
+			.topPic img{
+				width: 100%;
+			}
+			.main table{
+				margin: 50px 0;
+				border: 1px solid #CCCCCC;
+			}
+			.main .table > tbody > tr > th{
+				padding: 20px;
+				border: 1px solid#CCCCCC;
+				color: #e50065;
+				font-size: 20px;
+			}
+			.main .table > tbody > tr > td{
+				padding: 20px;
+				border: 1px solid#CCCCCC;
+			}
+		</style>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="shortcut icon" href="http://www.xdebike.com/xiaodao.ico">
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/site.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/homepage.css"/>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/swiper-3.4.2.jquery.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/homepage.js"></script>
+		<script src="js/city.js"></script>
+	</head>
+	<body>
+		<div id="navHeader"></div>
+		<div class="topPic">
+			<img src="img/join1.jpg"/>
+		</div>
+		<div class="main">
+			<div class="container">
+				<table class="table table-hover">
+					<tr>
+						<th>职位名称</th>
+						<th>职位类别</th>
+						<th>工作地点</th>
+						<th>发布时间</th>
+					</tr>
+					<tr>
+						<td>店面设计师</td>
+						<td>市场部</td>
+						<td>江苏无锡</td>
+						<td>2017-08-30</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div id="footerBottom"></div>
+		<div id="goTop"></div>
+		<script type="text/javascript">
+			$(function(){
+				(function(){
+					//加载头部，底部，返回顶部导航
+					$('#navHeader').load('index.html .navHeader');
+					$('#footerBottom').load('index.html .footerBottom');
+					$('#goTop').load('index.html .goTop',function(){
+						$('body').append('<script src="js/marketing.js"><\/script>');
+					});
+				})();
+			})
+		</script>
+	</body>
+</html>

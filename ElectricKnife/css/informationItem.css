@@ -1,0 +1,54 @@
+.topPic{
+	width: 100%;
+	margin-top: 83px;
+	margin-bottom: 62px;
+}
+.topPic img{
+	width: 100%;
+}
+.title .container{
+	border-bottom: 1px solid #CCCCCC;
+}
+.title .time{
+	padding-left: 30px;
+	margin: 30px 0;
+}
+.title .time img{
+	margin-right: 20px;
+}
+.mains{
+	text-align: center;
+	margin-top: 30px;
+} 
+.mains .container{
+	padding-bottom: 50px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.mains .line{
+	margin-bottom: 30px;
+}
+.mains .line1{
+	margin-top: 30px;
+}
+.mains span{
+	color: #E53333;
+}
+.mains img{
+	width: 100%;
+}
+.mains .btoBox{
+	padding: 30px 0;
+	overflow: hidden;
+}
+.mains .btoBox .preve{
+	float: left;
+	cursor: pointer;
+}
+.mains .btoBox .next{
+	float: right;
+	cursor: pointer;
+}
+.mains .btoBox a{
+	font-size: 16px;
+	color: #262626;
+}
